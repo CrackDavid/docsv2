@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+theme = "hugo-theme-learn"
+languageCode = "en-us"
+title = "Wails v2"
+
+[outputs]
+home = [ "HTML" ]
