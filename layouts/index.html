@@ -80,7 +80,7 @@
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="/getstarted" class="get-started-btn scrollto">Get Started</a>
+      <a href="#getstarted" class="get-started-btn scrollto">Get Started</a>
 
     </div>
   </header><!-- End Header -->
@@ -94,7 +94,7 @@
           <h1>Go Application Framework</h1>
           <h2>Create <span id="keyword"></span> applications using Go & Web technologies</h2>
           <div class="d-lg-flex">
-            <a href="/getstarted" class="btn-get-started scrollto">Get Started</a>
+            <a href="#getstarted" class="btn-get-started scrollto">Get Started</a>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"><span>Watch Video</span><i class="icofont-play-alt-2"></i></a>
           </div>
         </div>
@@ -303,51 +303,62 @@
     <!-- End Skills Section -->
 
     <!-- ======= Services Section ======= -->
-    <!-- <section id="services" class="services section-bg">
+    <section id="getstarted" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Get Started</h2>
+          <p>Wails v2 is currently in Beta for MacOS, with Linux and Windows coming soon.</p>
         </div>
-
+        
         <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-12 col-md-12 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div class="icon" ><i class='bx bxl-apple'></i></div>
+              <h4>MacOS</h4>
+              <div class="getting-started">
+                Installation instructions:
+                <ol>
+                  <li>Ensure you have <a href="https://golang.org/dl/">Go v1.15</a> or above installed and your <pre>$PATH</pre> includes the path to the Go binary</li>
+                  <li>Ensure you have the latest version of <a href="https://nodejs.org/en/">Node / npm</a> installed</li>
+                  <li>Ensure you have the XCode cli tools installed: <pre>xcode-select --install</pre></li>
+                  <li>Clone the Wails repository: <pre>git clone https://github.com/wailsapp/wails</pre></li>
+                  <li>Install the v2 cli: <pre>cd v2/cmd/wails && go install</pre></li>
+                </ol>
+                Notes:
+                <ul>
+                  <li>Cross-compilation currently unsupported</li>
+                  <li>Some templates have not been ported yet. Svelte & Vanilla JS are currently supported</li>
+                </ul>
+              </div>
             </div>
           </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
         </div>
-
+        <br/>
+        <div class="row">
+          <div class="col-xl-12 col-md-12 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon" ><i class='bx bxs-terminal'></i></div>
+              <h4>Create your Application</h4>
+              <div class="getting-started">
+                These instructions will create a basic Svelte application. Look at <pre>wails init --help</pre> for other options.
+                <ol>
+                  <li>Create a new directory for your project and <pre>cd</pre> into it</li>
+                  <li>Run: <pre>wails init -t svelte-mui -n test</pre> to create your project</li>
+                  <li>Run: <pre>wails build</pre> to build your project</li>
+                  <li>The application will be built in <pre>./build/darwin/desktop/</pre></li>
+                  <li>Run the application with: <pre>./build/darwin/desktop/test</pre></li>
+                </ol>
+                Notes:
+                <ul>
+                  <li>More documentation will be coming very shortly!</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section> -->
+    </section>
     <!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
