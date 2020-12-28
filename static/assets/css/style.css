@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #2;
+  color: #232323;
 }
 
 a {
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: #1f1f1f;
+  background: #232323;
 }
 
 #hero .container {
@@ -571,7 +571,6 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47;
   bottom: 0;
   left: calc(50% - 20px);
 }
