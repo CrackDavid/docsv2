@@ -252,3 +252,10 @@ h3 {
   font-weight: 400;
   font-size: 1.25rem;
 }
+
+#homelinks {
+  background-color: #222;
+  color: #fff;
+  padding: 7px 0;
+  border-bottom: 4px solid #333;
+  }
