@@ -10,7 +10,7 @@ Wails v2 is currently in Beta (for supported platforms) and we need your help an
 
 Where possible, please provide PRs for this documentation site. Examples:
 
-  * To ask a question, please open a PR for the [FAQ](/faq) page
+  * If you have a question that you think will be fairly common, please open a PR for the [FAQ](/faq) page
   * To provide feedback on EG OS version supported, please open a PR for the OS Version Matrix for the relevant platform
 
 <div style="text-align: center;">
