@@ -31,7 +31,7 @@ The Mac version of v2 is the most complete and it is possible right now to build
 | Events         | ✓    | ✓          |                            |
 | Tray           | ✓    | ✗          | JS Menu TBD                |
 | System         | ✓    | ✓          |                            |
-| Dialog         | ✓    | ✗          | JS Message Alerts TBD      |
+| Dialog         | ✓    | ✓          | JS Message Alerts TBD      |
 
 
 ## MacOS Version Support
@@ -40,6 +40,6 @@ One of the best way to test platform support is to try running the Kitchen Sink 
 
 | MacOS Version  | CLI  | Runtime | Notes                                                     |
 |:-------------- |:----:|:-------:|-----------------------------------------------------------|
-| v11.1 beta     | ✓    | ✗       | Message dialogs / Menu / Context Menus not implemented in JS              |
+| v11.1 beta     | ✓    | ✗       | Menu / Context Menus not implemented in JS                |
 |                |      |         |                                                           |
 |                |      |         |                                                           |
