@@ -31,7 +31,7 @@ The Mac version of v2 is the most complete and it is possible right now to build
 | Events         | ✓    | ✓          |                            |
 | Tray           | ✓    | ✗          | JS Menu TBD                |
 | System         | ✓    | ✓          |                            |
-| Dialog         | ✓    | ✓          | JS Message Alerts TBD      |
+| Dialog         | ✓    | ✓          |                            |
 
 
 ## MacOS Version Support
